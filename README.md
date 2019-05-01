@@ -5,6 +5,9 @@ Projeto realizado no bootcamp da Rocketseat.
 # Começando o projeto
 
 Iniciamos o projeto criando um projeto NodeJS com o comando npm init -y
+Criar a pasta onde vai ficar os arquivos estaticos
+Configurar o servidor para ter acesso a arquivos estaticos
+Configurar as pastas de layout, \_layouts e \_partials
 
 # Sequelize
 
@@ -51,3 +54,17 @@ Modificar o arquivo app/model/index.js
 
 Criar a imagem do banco de dados utilizando o docker
 Postgress com algumas melhorias de geolocalização: docker run --name database -p 5432:5432 -d -t kartoza/postgis
+
+# Models
+
+Criar o modelo do usuário na pasta models.
+Por padrão o nome dos arquivos de modelos começa com a primeira leitra Maiúscula
+Configurar o migration dos usuários
+
+# Docker
+
+Parando um processo:
+Docker stop idImagem/IdProcesso
+
+Exibindo todos os containers
+docker container ls
