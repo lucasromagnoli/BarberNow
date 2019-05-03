@@ -2,6 +2,11 @@
 
 Projeto realizado no bootcamp da Rocketseat.
 
+# Pacotes
+
+Nunjucks
+Sequelize
+
 # Começando o projeto
 
 Iniciamos o projeto criando um projeto NodeJS com o comando npm init -y
