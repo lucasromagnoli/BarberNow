@@ -8,7 +8,10 @@ const SessionController = require('./app/controllers/SessionController')
 
 routes.get('/', SessionController.create)
 routes.get('/signup', UserController.create)
-routes.get('/app/dashboard', (req, res) => res.render('dashboard'))
+routes.get('/app/dashboard', (req, res) => {
+  console.log('req.session.user :', req.session.user)
+  res.render('dashboard')
+})
 
 routes.post('/signin', SessionController.store)
 routes.post('/signup', upload.single('avatar'), UserController.store)
