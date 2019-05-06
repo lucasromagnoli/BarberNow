@@ -4,10 +4,13 @@ Projeto realizado no bootcamp da Rocketseat.
 
 # Pacotes
 
+Express
+Express-session
 Nunjucks
 Sequelize
 Bcryptjs
 Multer
+[Connect-loki]
 
 # Começando o projeto
 

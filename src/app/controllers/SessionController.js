@@ -20,6 +20,7 @@ class SessionController {
       return res.redirect('/')
     }
 
+    req.session.user = user
     console.log('Logado com sucesso!')
     return res.redirect('/app/dashboard')
   }
