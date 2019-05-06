@@ -6,6 +6,8 @@ Projeto realizado no bootcamp da Rocketseat.
 
 Nunjucks
 Sequelize
+Bcryptjs
+Multer
 
 # Começando o projeto
 
