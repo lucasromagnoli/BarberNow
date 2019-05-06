@@ -59,3 +59,6 @@ typings/
 
 # next.js build output
 .next
+
+# Pasta tmp responsável por ficar os uploads do servidor, como os avatares dos usuários.
+tmp
