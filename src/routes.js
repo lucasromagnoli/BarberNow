@@ -8,16 +8,17 @@ const guestMiddleware = require('./app/middlewares/guest')
 
 const UserController = require('./app/controllers/UserController')
 const SessionController = require('./app/controllers/SessionController')
+const DashboardController = require('./app/controllers/DashboardController')
+const FileController = require('./app/controllers/FileController')
 
 routes.use(require('./app/middlewares/flash'))
 routes.use('/app', authMiddleware)
 
+routes.get('/files/:file', FileController.show)
+
 routes.get('/', guestMiddleware, SessionController.create)
 routes.get('/signup', guestMiddleware, UserController.create)
-routes.get('/app/dashboard', (req, res) => {
-  console.log('req.session.user :', req.session.user)
-  res.render('dashboard')
-})
+routes.get('/app/dashboard', DashboardController.index)
 routes.get('/app/logout', SessionController.destroy)
 
 routes.post('/signin', SessionController.store)
