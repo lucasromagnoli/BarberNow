@@ -10,7 +10,8 @@ Nunjucks
 Sequelize
 Bcryptjs
 Multer
-[Connect-loki]
+Connect-loki
+Connect-flash
 
 # Começando o projeto
 
