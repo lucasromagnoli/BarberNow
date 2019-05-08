@@ -1,0 +1,11 @@
+{% for appointment in appointments %}
+  <div>
+    <div class="provider">
+      <img src="/files/{{appointment.client.avatar}}"/>
+      <strong>{{appointment.client.name}}</strong>
+      <strong>Data</strong>
+      <i style="margin-left: 10px">{{appointment.date}}</i>
+    </div>
+
+  </div>
+{% endfor %}

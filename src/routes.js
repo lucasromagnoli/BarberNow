@@ -23,6 +23,8 @@ routes.get('/signup', guestMiddleware, UserController.create)
 routes.get('/app/dashboard', DashboardController.index)
 routes.get('/app/logout', SessionController.destroy)
 routes.get('/app/appointments/new/:provider', AppointmentController.create)
+routes.get('/app/appointments/show/all', AppointmentController.show)
+routes.get('/app/appointments/show/provider/all', AppointmentController.all)
 routes.get('/app/available/:provider', AvailableController.index)
 
 routes.post('/signin', SessionController.store)
