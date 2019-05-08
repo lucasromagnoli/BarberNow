@@ -13,6 +13,7 @@ Multer
 Connect-loki
 Connect-flash
 Flatpickr
+Moment
 
 # Começando o projeto
 
