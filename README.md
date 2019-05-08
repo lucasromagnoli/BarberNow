@@ -12,6 +12,7 @@ Bcryptjs
 Multer
 Connect-loki
 Connect-flash
+Flatpickr
 
 # Começando o projeto
 
