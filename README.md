@@ -1,6 +1,6 @@
 # Barber Now
 
-Ideia: Sistema responsável por gerenciar cortes de cabelo.
+Sistema responsável por gerenciar cortes de cabelo.
 Onde usuários e barberios se cadastram, e os usuários agendam usuário com o seu barbeiro favorito.
 
 Projeto foi realizado no bootcamp da Rocketseat GO Stack 6.0.
